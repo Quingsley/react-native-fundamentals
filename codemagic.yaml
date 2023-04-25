@@ -6,8 +6,7 @@ workflows:
         script: ./gradlew assembleRelease
     artifacts:
       - app/build/outputs/**/**/*.apk
-workflows:
-  my-workflow:
+
     triggering:
       events:
         - push
